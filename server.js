@@ -4,7 +4,7 @@ var formidable = require('formidable');
 const path = require('path');
 
 const app = express();
-const port = 8000;
+const port = process.env.PORT || 8000;
 
 let manager = [];
 let track = 0;
