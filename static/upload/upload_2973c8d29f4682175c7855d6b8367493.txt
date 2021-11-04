@@ -1,0 +1,26 @@
+Dear Mr Feldkircher,
+
+ 
+I hope this message reaches you in good health.
+
+Mr Girke has carried out the following activity:
+
+we want to use web services to access the new service app to be created on NAV.
+
+Since the app is to be operated on the public internet, access to the NAV web services is necessary from there. Could you please set this up for the test environment (see below).
+
+"Currently, the web service is provided on the NAVSRV (194.127.173.25) on port 7088. Authentication is done via username/password (basic authorisation). To make this possible, I have created a new NAV instance TGA-TestSystem-WS and configured it accordingly. Currently the service runs under the Cosmo2016 account. Could you please adjust this in the same way as the existing services.
+
+I have carried out the following activity:
+
+ 
+Dear Mr Girke,
+
+ 
+I have adjusted the account for the service.
+
+ 
+Please change the URL for accessibility from the internet to:
+
+ 
+$odataUrl = 'http://service.tga-etw.de:7088/TGA-TestSystem-WS/OData'
